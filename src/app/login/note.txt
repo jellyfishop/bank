@@ -1,0 +1,9 @@
+life cycle of angular
+---------------------
+constructor-->ngOnInit-->other methods
+
+data binding techniques in angular(datasharing in comeponent)
+------------------------------------------------------------
+
+html-view
+ts-component

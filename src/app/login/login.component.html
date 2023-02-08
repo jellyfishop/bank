@@ -1,0 +1,21 @@
+<h2 style="color: white; text-align: center;">{{data}}</h2>
+<div class="container w-50 rounded text-center p-5 mt-5" style="background-color:rgba(30, 91, 157, 0.733)">
+    <h1>Sign in to your bank account</h1>
+
+    <form action="" (ngSubmit)="login()">
+        <div class="p-3 mt-2">
+            <input [(ngModel)]="acno" id="acid" name="acnum1" class="form-control" type="text" [placeholder]="inputplaceolder">
+        </div>
+        <div class="p-3 mt-2">
+            <input [(ngModel)]="psw" id="psw1" name="paswrd1" class="form-control" type="password" placeholder="password">
+        </div>
+        <div class="p-3 mt-2">
+            <button type="submit"  class="btn btn-outline-dark">login</button>
+        </div>
+<div class="text-center"> 
+   <strong>Not regstered?</strong>
+   &nbsp; <a style="text-decoration: none;color:greenyellow" routerLink="register">Register</a>
+</div>
+    </form>
+</div>
+
